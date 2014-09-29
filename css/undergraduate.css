@@ -48,7 +48,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
+    margin: 1em 14em;
     padding: 0;
 }
 
@@ -98,6 +98,21 @@ textarea {
    ========================================================================== */
 
 
+#title{
+    text-align:center;
+}
+
+#chandni{
+    text-align: center;
+    margin: 0px;
+}
+
+.memoriam{
+    font-style: Garamond;
+    font-size: 30px;
+}
+
+
 /* HEADER */
 #header {
     /*background: url('img/header.jpg') no-repeat;*/
@@ -106,7 +121,20 @@ textarea {
 }
 
 
+#top{
+    text-align: center;
+}
+
+#prof_text{
+    padding-left: 6em;
+    line-height: 1.5em;
+}
+
+
 /**Navigation Bar **/
+
+
+
 
 #wrap  {
     width: 100%; /* Spans the width of the page */
@@ -122,7 +150,7 @@ textarea {
     /* height: 50px; */
     padding: 0;
     margin: 0;
-    position: absolute; /* Ensures that the menu doesn’t affect other elements */
+    position: absolute; /* Ensures that the menu doesnâ€™t affect other elements */
     border-right: 1px solid #79068c; 
     }
 
@@ -136,7 +164,9 @@ textarea {
             padding: 0;
             margin: 0;
             background-color: #57068c;
-                        }
+}
+
+
 
 .navbar a   {                           
         padding: 18px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
@@ -186,7 +216,8 @@ textarea {
     width:50px;
     background:#000;*/
     float: left;
-    line-height: 2.5em;
+    line-height: 1.5em;
+    text-align: center;
 }
 
 #sidebar ul {
@@ -205,7 +236,8 @@ textarea {
     border-bottom: #FFF solid 2px;
     padding: 12px 16px;
     /* vertical-align: middle; */
-    font-size: 14px;
+    font-size: 14px
+    text-align: center;
 }
 
 #sidebar a{
@@ -216,11 +248,99 @@ textarea {
     /*padding-left: 1px;*/
 
 }
-#sidebar a:hover, a:active {
-    background-color: #7A991A;
+#sidebar li:hover, li:active {
+    background-color: #7bc143;
 }
 
 #sidebar .head {
+    /*color: #FFF;*/
+    /*background-color: #3D0463;*/
+    /* border-right: 1px solid #3B8C06; */
+    /*letter-spacing: 0.15em;*/
+    /*color: #ffffff;*/
+   /* background-color: #3d0463; /*changed*/
+    /*border-bottom: 2px solid #3b8c06; /*changed*/
+     /*border-right:1px solid #3b8c06;changed*/
+    /*border-top: 1px solid #3d0463; changed*/
+    /*text-align: center;*/
+    /*text-shadow: -1px 1px 1px #666666;*/
+    /*letter-spacing: 0.15em;*/
+
+    color: #fff;
+    background-color: #3D0463;
+    /* border-right: 1px solid #3B8C06; */
+    letter-spacing: 0.15em;
+
+    /*-webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px; */
+}
+
+#text{
+    line-height: 2em;
+}
+
+.text{
+    text-align: center;
+    line-height: -10em;
+    padding-bottom: 100px;
+    margin: -10em;
+}
+
+h4 .adjunct_professor{
+    font-size: 1em;
+    margin: 3.33em 0 -34px;
+}
+
+/*rightbar*/
+#rightbar{
+    display: inline-block;
+  /*  margin-left: 20px;*/
+    vertical-align: top;
+    
+    /*position:absolute;
+    top:0; bottom:0; left:0;
+    width:50px;
+    background:#000;*/
+    width: 263px;
+    float: right;
+    line-height: 1.6em;
+}
+
+#rightbar ul {
+    padding: 0;
+    margin-left: 12px;
+    width: 200px;
+    /*margin-top: 129px;*/
+}
+
+
+#rightbar ul li {
+    list-style-type: none;
+    list-style-image: none;
+    /* width: 200px; */
+    background-color: #DDD;
+    /*height: 23.5px;*/
+    border-bottom: #FFF solid 2px;
+    padding: 12px 16px;
+    /* vertical-align: middle; */
+    font-size: 14px;
+    text-align: center;
+}
+
+#rightbar a{
+    /*display: block;*/
+/*    width:150px;
+    background-color: #dddddd;*/
+    text-decoration: none;
+    /*padding-left: 1px;*/
+
+}
+#rightbar li:hover, li:active {
+    background-color: #7bc143;
+}
+
+#rightbar .head {
     /*color: #FFF;*/
     /*background-color: #3D0463;*/
     /* border-right: 1px solid #3B8C06; */
@@ -244,12 +364,19 @@ textarea {
     border-top-left-radius: 5px; */
 }
 
+
+
+
+
+
+
 #container {
     width: 100%;
 }
 
 .content {
-    float: left;
+    /*float: left;*/
+    display: inline-block;
     width: 700px;
     padding-bottom: 32px;
 }
@@ -262,8 +389,8 @@ textarea {
 }
 
 #text{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: -61px;
+    margin-right: 59px;
 }
 
 li {
@@ -279,8 +406,9 @@ table{
 th, td{
     padding: 5px 30px 5px 10px;
     border-spacing: 0px;
-    font-size: 71%;
+    font-size: 95%;
     margin: 0px;
+    line-height: 20px;
 }
 
 th, td{
@@ -300,6 +428,8 @@ tr.head th{
     text-align: center;
     text-shadow: -1px 1px 1px #666666;
     letter-spacing: 0.15em;
+    font-size: 95%;
+
 }
 
 td{
@@ -330,7 +460,61 @@ tr.head th:last-child{
     line-height: 1.5;
 }
 
+#itemSelected {
+    background-color: #3D0463;
+    color: #FFFFFF;
+}
+.head a{
+    color:white;
+}
 
+#title{
+    text-align: center;
+}
+
+#convocation{
+    padding-bottom: 100px;
+}
+
+/* FOOTER STYLES */
+.footer-wrapper {
+    margin-top: 100px;
+}
+
+.footer{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    background: #f9f9f9;
+}
+
+#signature{
+    color:#57068c;
+    text-transform: uppercase;
+    font-size: 2.33em;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    margin-right: 500px;
+    display: inline-block;
+}
+
+#follow_us{
+    display: inline-block;
+}
+
+.row {
+    text-align: center;
+}
+
+
+#text_box{
+    text-align: center;
+}
+
+.red {
+    color: #7bc143;
+}
 
 
 /* ==========================================================================
