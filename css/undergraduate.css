@@ -516,6 +516,13 @@ tr.head th:last-child{
     color: #7bc143;
 }
 
+.quotations{
+    font-style: italic;
+}
+#dept_head_sig{
+    line-height: 34px;
+}
+
 
 /* ==========================================================================
    Helper classes
